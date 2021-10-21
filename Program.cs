@@ -18,6 +18,17 @@ namespace MethodsExercise
             Console.WriteLine("Excellent!!  Now, what is your favorite music group?");
             var musicGroup = Console.ReadLine();
 
+            Console.WriteLine($"Thanks, {userName}!!  Here is your profile");
+            Console.WriteLine("--------------------------------------------------");
+
+
+
+            Console.WriteLine($"Name: {userName}");
+            Console.WriteLine($"Favorite color {color}");
+            Console.WriteLine($"Favorite animal {animal}");
+            Console.WriteLine($"Favorite musicgroup {musicGroup}");
+
+            Console.ReadLine();
             
         }
     }
